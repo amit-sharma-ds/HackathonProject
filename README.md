@@ -1,17 +1,35 @@
 # 📦 Amazon Review Sentiment Analyzer
 
-### 🛠️ Tech Stack:
-- 🐍 Python  
-- 🤖 TensorFlow (Keras)  
-- 📚 NLTK (Text preprocessing)  
-- 🎨 Gradio (Web UI)  
-- 🚀 Hugging Face Spaces (Deployment)
+This project is an **Amazon Review Sentiment Analyzer** that classifies customer reviews as **positive** ✅ or **negative** ❌ using advanced deep learning models like **RNN**, **LSTM**, and **GRU**. The core idea was to intersect AI with different technologies across the stack to build a **robust and efficient sentiment analysis system**.
 
-### 📄 Project Overview:
-- Built an LSTM-based deep learning model to classify Amazon product reviews as **Positive** or **Negative**.  
-- Implemented text cleaning using stemming and stopword removal for better accuracy.  
-- Created an interactive web interface with Gradio for real-time sentiment prediction.  
-- Deployed the app on Hugging Face Spaces for easy public access.
+It involves:
+- 🧹 Text preprocessing  
+- 🔤 Tokenization  
+- 📏 Sequence padding  
 
-### 🔗 Demo Link:
-[👉 Try the app here]([https://huggingface.co/spaces/AmitSharma99/sentiment-analysis-app](https://huggingface.co/spaces/AmitSharma99/sentiment-analysis-app))
+All to prepare data for the neural network models.
+
+---
+
+## 🚀 Tech Stack
+
+### 🧠 Backend & AI Models
+- 🐍 **Python**
+- 🔬 **TensorFlow / Keras**
+- 🔁 **RNN, LSTM, GRU models**
+- ✂️ **NLTK** (for text cleaning & stopwords removal)
+- 📊 **NumPy & Pandas**
+- 💾 **Pickle** (for saving/loading model & tokenizer)
+
+### 🖥️ Frontend & UI
+- 🎛️ **Gradio** (to create an interactive user interface)
+
+### ☁️ Deployment & Version Control
+- 🤗 **Hugging Face Spaces** (for live hosting)
+- 🗃️ **Git & GitHub** (for version control and collaboration)
+
+---
+
+## 🔗 Try the App
+
+👉 [Try the App Here](https://huggingface.co/spaces/AmitSharma99/sentiment-analysis-app)
